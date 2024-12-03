@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        container_red: "#AA3C3F",
+        container_light: "#bc4345",
       },
     },
   },
