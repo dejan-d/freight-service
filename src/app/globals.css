@@ -5,8 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  .swiper-button-next { color: #bc4345 }
-  .swiper-button-prev { color: #bc4345 }
+  .swiper-button-next { color: white }
+  .swiper-button-prev { color: white }
 }
 
 @media (prefers-color-scheme: dark) {

@@ -32,7 +32,7 @@ const heroSlides: HeroSlide[] = [
     subheadline: 'From Point A to Point B, Perfectly'
   },
   {
-    image: '/images/hero-4.jpg',
+    image: '/images/image4.jpg',
     headline: 'Reliable Transportation',
     subheadline: 'Your Cargo, Our Commitment'
   }

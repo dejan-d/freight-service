@@ -3,6 +3,8 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from "../../public/images/logo.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,7 +48,11 @@ const Navbar = () => {
             ${isScrolled ? 'text-xl' : 'text-2xl'}
           `}
         >
-          GlobalFreight Logistics
+          <Image
+          priority
+          src={logo}
+          alt="Follow us on Twitter"
+          />
         </Link>
 
         {/* Mobile Menu Toggle */}
@@ -112,7 +118,7 @@ const Navbar = () => {
             top-16 
             left-0 
             w-full 
-            bg-blue-600 
+            bg-container_red 
             shadow-lg
           ">
             <ul className="flex flex-col items-center space-y-4 py-4">
